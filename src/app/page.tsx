@@ -8,10 +8,14 @@ export default function Home() {
       <Image
         className={styles.pics}
         src="/static/images/ashina-genichiro-1.jpg"
-        width={600}
-        height={600}
+        width={1920}
+        height={1026}
         alt=""
       />
+      <div className={styles.container}>
+        <h1>Why did this thing not appear</h1>
+      </div>
+   
     </>
   )
 }
